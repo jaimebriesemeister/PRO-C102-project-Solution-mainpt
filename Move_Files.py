@@ -21,8 +21,8 @@ for file_name in list_of_files:
     if extension in ['.txt', '.pdf', '.doc', '.docx']:
 
         path1 = from_dir + '/' + file_name                         # Exemplo path1 : Downloads/nomeImagem1.jpg        
-        path2 = to_dir + '/' + "Arquivos_Imagem"                   # Exemplo path2 : D:/Meus Arquivos/Arquivos_Imagem      
-        path3 = to_dir + '/' + "Arquivos_Imagem" + '/' + file_name # Exemplo path3 : D:/Meus Arquivos/Arquivos_Imagem/nomeImagem1.jpg
+        path2 = to_dir + '/' + "Arquivos_Documentos"                   # Exemplo path2 : D:/Meus Arquivos/Arquivos_Imagem      
+        path3 = to_dir + '/' + "Arquivos_Documentos" + '/' + file_name # Exemplo path3 : D:/Meus Arquivos/Arquivos_Imagem/nomeImagem1.jpg
         #print("path1 " , path1)
         #print("path3 ", path3)
 
